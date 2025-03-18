@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: salmon;
+    text-align: center;
+}
+
+video {
+    pointer-events: none;
+}
+
+button {
+    color: black;
+    background-color: white;
+    width: 70px;
+    height: 30px;
+    font-size: large;
+    border-radius: 15px;
+    margin: 30px ;
+}
+
+#btn{
+    display: inline-block;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+#btn:hover{
+    transform: translate(100px, 50px);
+}
+
+p{
+    font-size: 25px;
+}
